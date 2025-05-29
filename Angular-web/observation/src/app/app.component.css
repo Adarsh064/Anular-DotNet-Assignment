@@ -1,0 +1,69 @@
+/* ===== Global App Styles (app.component.css) ===== */
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.app-header h1 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 3rem;
+  font-weight: 300;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
+}
+
+.app-header p {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.main-tabs {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.95);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  animation: slideUp 0.8s ease-out;
+}
+
+/* Tab styling */
+.mat-tab-group {
+  background: transparent;
+}
+
+.mat-tab-label {
+  padding: 24px 32px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.mat-tab-label:hover {
+  background: rgba(102, 126, 234, 0.1) !important;
+  transform: translateY(-2px);
+}
+
+.mat-tab-label-active {
+  background: linear-gradient(45deg, #667eea, #764ba2) !important;
+  color: white !important;
+}
+
+.mat-ink-bar {
+  height: 4px !important;
+  background: linear-gradient(45deg, #667eea, #764ba2) !important;
+}
+

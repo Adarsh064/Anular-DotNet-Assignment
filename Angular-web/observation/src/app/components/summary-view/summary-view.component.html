@@ -1,0 +1,48 @@
+<!-- ===== components/summary-view/summary-view.component.html ===== -->
+<div class="summary-card">
+  <div class="summary-header">
+    <h2>📊 Data Summary Overview</h2>
+  </div>
+  
+  <ng-container *ngIf="flatDataItems.length; else noDataTemplate">
+    <div class="table-container">
+      <table mat-table [dataSource]="flatDataItems" class="observation-table mat-elevation-z0">
+
+        <ng-container matColumnDef="samplingTime">
+          <th mat-header-cell *matHeaderCellDef>
+            <i class="material-icons" style="vertical-align: middle; margin-right: 8px;">schedule</i>
+            Sampling Time
+          </th>
+          <td mat-cell *matCellDef="let element" class="sampling-time-cell">
+            <strong>{{element.samplingTime}}</strong>
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="properties">
+          <th mat-header-cell *matHeaderCellDef>
+            <i class="material-icons" style="vertical-align: middle; margin-right: 8px;">settings</i>
+            Properties
+          </th>
+          <td mat-cell *matCellDef="let element">
+            <div class="properties-container">
+              <span *ngFor="let p of element.properties" class="property-item">
+                {{p.label}}: {{p.value}}
+              </span>
+            </div>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="['samplingTime', 'properties']"></tr>
+        <tr mat-row *matRowDef="let row; columns: ['samplingTime', 'properties'];"></tr>
+
+      </table>
+    </div>
+  </ng-container>
+  
+  <ng-template #noDataTemplate>
+    <div class="no-selection-message">
+      <i class="material-icons" style="font-size: 48px; color: #ccc; margin-bottom: 16px;">inbox</i>
+      <p>No observation data available</p>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,77 @@
+<!-- ===== components/detailed-view/detailed-view.component.html ===== -->
+<div class="detailed-card">
+  <div class="detailed-header">
+    <h2>📝 Detailed Data Management</h2>
+  </div>
+  
+  <div class="detailed-container">
+    <div class="left-panel">
+      <div class="sampling-times-card">
+        <div class="sampling-times-header">
+          <h3>
+            <i class="material-icons" style="vertical-align: middle; margin-right: 8px;">list</i>
+            Sampling Times
+          </h3>
+        </div>
+        
+        <mat-selection-list 
+          (selectionChange)="onSelect($event.options[0].value)"
+          [multiple]="false">
+          <mat-list-option *ngFor="let item of observationData?.datas" [value]="item">
+            <div class="sampling-time-item">
+              <div class="time">
+                <i class="material-icons" style="font-size: 16px; vertical-align: middle; margin-right: 4px;">access_time</i>
+                {{ item.samplingTime }}
+              </div>
+              <div class="project" *ngIf="item.properties?.length">
+                {{ item.properties.length }} properties
+              </div>
+            </div>
+          </mat-list-option>
+        </mat-selection-list>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div class="form-card" *ngIf="form; else noSelectionTemplate">
+        <div class="form-header">
+          <h3>
+            <i class="material-icons" style="vertical-align: middle; margin-right: 8px;">edit</i>
+            Edit Properties
+          </h3>
+        </div>
+        
+        <form [formGroup]="form" class="dynamic-form">
+          <div class="form-grid">
+            <mat-form-field 
+              *ngFor="let key of form?.controls | keyvalue" 
+              class="form-field"
+              appearance="outline">
+              <mat-label>{{ key.key }}</mat-label>
+              <input matInput [formControlName]="key.key" />
+              <mat-icon matSuffix>edit</mat-icon>
+            </mat-form-field>
+          </div>
+          
+          <div class="form-actions">
+            <button 
+              mat-raised-button 
+              color="primary" 
+              (click)="onSave()"
+              [disabled]="!form.valid">
+              <mat-icon style="margin-right: 8px;">save</mat-icon>
+              Save Changes
+            </button>
+          </div>
+        </form>
+      </div>
+      
+      <ng-template #noSelectionTemplate>
+        <div class="no-selection-message">
+          <i class="material-icons" style="font-size: 48px; color: #ccc; margin-bottom: 16px;">touch_app</i>
+          <p>Select a sampling time from the list to edit its properties</p>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>

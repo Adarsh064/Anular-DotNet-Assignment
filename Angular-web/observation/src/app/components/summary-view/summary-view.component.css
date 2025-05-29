@@ -1,0 +1,86 @@
+ /* ===== Summary View Styles (summary-view.component.css) ===== */
+.summary-card {
+  margin: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.summary-header {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  padding: 25px 30px;
+  text-align: center;
+}
+
+.summary-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 0;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.observation-table {
+  width: 100%;
+  background: white;
+}
+
+/* Enhanced table styling */
+.mat-header-cell {
+  background: linear-gradient(45deg, #f8f9ff, #e8eaff) !important;
+  color: #333 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #667eea !important;
+  padding: 20px 16px !important;
+}
+
+.mat-cell {
+  padding: 20px 16px !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+  transition: all 0.3s ease;
+}
+
+.mat-row {
+  transition: all 0.3s ease;
+}
+
+.mat-row:hover {
+  background: linear-gradient(45deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05)) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.property-item {
+  display: inline-block;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  padding: 6px 12px;
+  margin: 2px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.property-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.sampling-time-cell {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}

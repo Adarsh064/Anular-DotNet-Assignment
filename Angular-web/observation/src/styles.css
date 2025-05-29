@@ -1,0 +1,222 @@
+/* You can add global styles to this file, and also import other style files */
+/* 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+/* Add these to your global styles.css */
+
+/* Material Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+/* Custom Material Theme Colors */
+:root {
+  --primary-color: #667eea;
+  --primary-dark: #5a6fd8;
+  --accent-color: #764ba2;
+  --accent-dark: #6a4190;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --error-color: #f44336;
+  --info-color: #2196f3;
+}
+
+/* Enhanced Snackbar Styles */
+.snackbar-success {
+  background: var(--success-color) !important;
+  color: white !important;
+}
+
+.snackbar-error {
+  background: var(--error-color) !important;
+  color: white !important;
+}
+
+.snackbar-warning {
+  background: var(--warning-color) !important;
+  color: white !important;
+}
+
+.snackbar-info {
+  background: var(--info-color) !important;
+  color: white !important;
+}
+
+/* Loading Spinner Overlay */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-spinner {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+/* Enhanced Material Form Fields */
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  border-radius: 8px !important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  border-width: 2px !important;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  border-color: var(--primary-color) !important;
+}
+
+/* Custom Material Buttons */
+.mat-raised-button.mat-primary {
+  background: linear-gradient(45deg, var(--primary-color), var(--accent-color)) !important;
+}
+
+.mat-raised-button.mat-accent {
+  background: linear-gradient(45deg, var(--accent-color), var(--primary-color)) !important;
+}
+
+/* Enhanced Material Tables */
+.mat-table {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+/* Material Selection List Enhancements */
+.mat-selection-list .mat-list-option.mat-selected {
+  background: linear-gradient(45deg, var(--primary-color), var(--accent-color)) !important;
+  color: white !important;
+}
+
+.mat-selection-list .mat-list-option.mat-selected .mat-pseudo-checkbox-checked {
+  background: white !important;
+  border-color: white !important;
+}
+
+.mat-selection-list .mat-list-option.mat-selected .mat-pseudo-checkbox-checked::after {
+  color: var(--primary-color) !important;
+}
+
+/* Tooltip Enhancements */
+.mat-tooltip {
+  background: rgba(0, 0, 0, 0.9) !important;
+  font-size: 12px !important;
+  border-radius: 4px !important;
+}
+
+/* Custom Card Styles */
+.interactive-card {
+  transition: all 0.3s ease !important;
+  cursor: pointer;
+}
+
+.interactive-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+}
+
+/* Progress Bar Enhancements */
+.mat-progress-spinner circle {
+  stroke: var(--primary-color) !important;
+}
+
+/* Tab Group Enhancements */
+.mat-tab-group.mat-primary .mat-tab-label-active {
+  color: var(--primary-color) !important;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar {
+  background: linear-gradient(45deg, var(--primary-color), var(--accent-color)) !important;
+}
+
+/* Form Validation Styles */
+.mat-form-field.mat-form-field-invalid .mat-form-field-outline-thick {
+  border-color: var(--error-color) !important;
+}
+
+.validation-error {
+  color: var(--error-color);
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Accessibility Enhancements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus Indicators */
+.mat-button:focus,
+.mat-raised-button:focus,
+.mat-list-option:focus {
+  outline: 2px solid var(--primary-color) !important;
+  outline-offset: 2px !important;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .app-container {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  }
+  
+  .main-tabs {
+    background: rgba(255,255,255,0.1);
+    color: white;
+  }
+  
+  .summary-card,
+  .detailed-card {
+    background: rgba(255,255,255,0.05);
+    color: white;
+  }
+  
+  .mat-table {
+    background: rgba(255,255,255,0.05) !important;
+    color: white !important;
+  }
+  
+  .mat-header-cell {
+    background: rgba(255,255,255,0.1) !important;
+    color: white !important;
+  }
+  
+  .mat-cell {
+    color: white !important;
+    border-bottom-color: rgba(255,255,255,0.1) !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .mat-tab-group,
+  .form-actions,
+  .mat-raised-button {
+    display: none !important;
+  }
+  
+  .app-container {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .summary-card,
+  .detailed-card {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+}
