@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ObservationAPI.Controllers.ObservationController",
+    "Method": "GetObservations",
+    "RelativePath": "api/Observation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ObservationAPI.Controllers.ObservationController",
+    "Method": "SaveObservations",
+    "RelativePath": "api/Observation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "observations",
+        "Type": "ObservationAPI.Models.Observation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

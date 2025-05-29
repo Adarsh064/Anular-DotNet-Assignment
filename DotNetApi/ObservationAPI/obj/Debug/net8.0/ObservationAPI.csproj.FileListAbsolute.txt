@@ -1,0 +1,74 @@
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\appsettings.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\Data\data.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.staticwebassets.endpoints.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.exe
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.deps.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.runtimeconfig.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.dll
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.pdb
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.csproj.AssemblyReference.cache
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.AssemblyInfoInputs.cache
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.AssemblyInfo.cs
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.csproj.CoreCompileInputs.cache
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\scopedcss\bundle\ObservationAPI.styles.css
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.ObservationAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.ObservationAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.ObservationAPI.props
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ObservationAPI.props
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ObservationAPI.props
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\Observat.301CDA97.Up2Date
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.dll
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\refint\ObservationAPI.dll
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.pdb
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.genruntimeconfig.cache
+D:\D Drive Adarsh\DotNetApi\ObservationAPI\obj\Debug\net8.0\ref\ObservationAPI.dll
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\appsettings.Development.json
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\appsettings.json
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\Data\data.json
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.staticwebassets.endpoints.json
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.exe
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.deps.json
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.runtimeconfig.json
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.dll
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\ObservationAPI.pdb
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\DotNetApi\ObservationAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.csproj.AssemblyReference.cache
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.AssemblyInfoInputs.cache
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.AssemblyInfo.cs
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.csproj.CoreCompileInputs.cache
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\scopedcss\bundle\ObservationAPI.styles.css
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.build.json
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.development.json
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.ObservationAPI.Microsoft.AspNetCore.StaticWebAssets.props
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.ObservationAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.ObservationAPI.props
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ObservationAPI.props
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ObservationAPI.props
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.pack.json
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\Observat.301CDA97.Up2Date
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.dll
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\refint\ObservationAPI.dll
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.pdb
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ObservationAPI.genruntimeconfig.cache
+F:\DotNetApi\ObservationAPI\obj\Debug\net8.0\ref\ObservationAPI.dll
